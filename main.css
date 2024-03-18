@@ -1,0 +1,25 @@
+:root {
+    --main-bg-color: #313338;
+    --font-color-1: #FFF;
+    --font-color-2: #F2F3F5;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    text-align: center;
+    padding: 150px;
+}
+
+h1 {
+    font-size: 50px;
+    color:var(--font-color-1);
+}
+
+p {
+    color: var(--font-color-2);
+}
+
+body {
+    font: 20px Helvetica,sans-serif;
+
+}
