@@ -4,6 +4,16 @@
     --font-color-2: #F2F3F5;
 }
 
+@font-face {
+    font-family: "gg-sans";
+    src:
+            local("./assets/fonts/gg-sans"),
+            url("./assets/fonts/gg-sans/gg sans Bold.ttf") format("truetype"),
+            url("./assets/fonts/gg-sans/gg sans Medium.ttf") format("truetype"),
+            url("./assets/fonts/gg-sans/gg sans Regular.ttf") format("truetype"),
+            url("./assets/fonts/gg-sans/gg sans Semibold.ttf") format("truetype");
+}
+
 body {
     background-color: var(--main-bg-color);
     text-align: center;
@@ -20,6 +30,6 @@ p {
 }
 
 body {
-    font: 20px Helvetica,sans-serif;
+    font: 20px gg-sans,sans-serif;
 
 }
