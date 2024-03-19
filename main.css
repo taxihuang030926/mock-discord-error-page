@@ -1,35 +1,59 @@
-:root {
-    --main-bg-color: #313338;
-    --font-color-1: #FFF;
-    --font-color-2: #F2F3F5;
-}
+@charset "UTF-8";
+@import url('https://fonts.cdnfonts.com/css/gg-sans-2');
 
-@font-face {
-    font-family: "gg-sans";
-    src:
-            local("./assets/fonts/gg-sans"),
-            url("./assets/fonts/gg-sans/gg sans Bold.ttf") format("truetype"),
-            url("./assets/fonts/gg-sans/gg sans Medium.ttf") format("truetype"),
-            url("./assets/fonts/gg-sans/gg sans Regular.ttf") format("truetype"),
-            url("./assets/fonts/gg-sans/gg sans Semibold.ttf") format("truetype");
+:root {
+    --main-bg-color:#313338;
+    --secondary-bg-color: #2B2D31;
+    --discord-purple: #5685F2;
+    --font-color-1:#FFF;
+    --font-color-2:#F2F3F5;
 }
 
 body {
-    background-color: var(--main-bg-color);
-    text-align: center;
-    padding: 150px;
+    background-color: #313338;
+
+    font-size: 100%;
+    background-attachment: fixed;
+
+}
+
+.contents {
+    display: flex;
+    margin: 100px 30px;
+}
+
+.contents > * {
+    margin: 80px;
+}
+
+.word-content {
+    text-align: left;
+    padding: 50px;
+
 }
 
 h1 {
-    font-size: 50px;
-    color:var(--font-color-1);
+    font-family: 'gg sans', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    color: var(--discord-purple);
 }
 
-p {
+h2.content {
+    font-family: 'gg sans Normal', sans-serif;
+    font-weight: 40;
+    font-size: 1.5em;
     color: var(--font-color-2);
 }
 
-body {
-    font: 20px gg-sans,sans-serif;
+img.Nelly-noodles {
+    height: 300px;
+}
+
+img.logo {
+    height: 95px;
+    position: absolute;
+    top: 0;
+    left: 16px;
 
 }
